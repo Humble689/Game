@@ -3,7 +3,7 @@ class Enemy:
         self.name = name
         self. health = health
         self.strength = strength # strength
-        self.defense = defense #
+        self.defense = defense 
 
 
     def attack(self, player):
