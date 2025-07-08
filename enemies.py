@@ -9,4 +9,4 @@ class Enemy:
     def attack(self, player):
         damage = max(self.strength - player.defense, 1)
         print(f"{self.name} attacks {player.name} for {damage} damage!")
-        player.health -= damage
+        player.health -= damage #defense
